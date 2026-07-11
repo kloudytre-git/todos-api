@@ -9,7 +9,6 @@ provider:
     cors:
       allowedOrigins:
         - http://localhost:5173
-        - https://kloudy-todos-api.netlify.app
       allowedHeaders:
         - Content-Type
       allowedMethods:
