@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "remix build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +15,6 @@
     "@aws-sdk/lib-dynamodb": "^3.1085.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.17.5",
     "serverless-s3-sync": "^3.5.1"
   }
 }

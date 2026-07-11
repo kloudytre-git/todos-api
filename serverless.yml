@@ -35,28 +35,28 @@ provider:
 
 functions:
   createTodo:
-    handler: src/handlers/createTodo.handler
+    handler: handlers/createTodo.handler
     events:
       - httpApi:
           path: /todos
           method: post
 
   getTodos:
-    handler: src/handlers/getTodos.handler
+    handler: handlers/getTodos.handler
     events:
       - httpApi:
           path: /todos
           method: get
 
   updateTodo:
-    handler: src/handlers/updateTodo.handler
+    handler: handlers/updateTodo.handler
     events:
       - httpApi:
           path: /todos/{todoId}
           method: put
 
   deleteTodo:
-    handler: src/handlers/deleteTodo.handler
+    handler: handlers/deleteTodo.handler
     events:
       - httpApi:
           path: /todos/{todoId}
